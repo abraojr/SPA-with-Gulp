@@ -1,0 +1,33 @@
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 0px 15px;
+    box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0 rgba(0, 0, 0, 0.06);
+}
+
+header.header input {
+    flex-grow: 10;
+    margin-right: 15px;
+    border-radius: 7px;
+    border: 1px solid #CCC;
+    padding: 8px;
+    font-size: 18px;
+    outline: none;
+}
+
+@media(max-width: $width-sm-max) {
+    header.header {
+        justify-content: flex-end;
+    }
+
+    header.header input  {
+        display: none;
+    }
+}
+
+@media(max-width: $width-xs-max) {
+    header.header {
+        justify-content: center;
+    }
+}

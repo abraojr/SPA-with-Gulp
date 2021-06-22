@@ -1,0 +1,31 @@
+$font-principal: 'Montserrat', sans-serif;
+
+// Colors
+$red-color-1: #f43a59;
+$blue-color-1: #007bff;
+$white-color: #FFF;
+
+$bg-dark-color: #1A2F3A;
+
+$gradient-1: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+$gradient-2: linear-gradient(135deg, #4f5b60 0%, #97a9b2 100%);
+$gradient-3: linear-gradient(135deg, #fc4a1a 0%, #f7b733 100%);
+$gradient-4: linear-gradient(135deg, #7474BF 0%, #348AC7 100%);
+
+// Sizes
+$height-logo: 80px;
+$height-header: 80px;
+$height-menu-top: 80px;
+$width-sidebar: 225px;
+$height-footer: 40px;
+
+// Size of the devices
+$width-xl-min: 1200px;
+$width-lg-max: 1199px;
+$width-lg-min: 992px;
+$width-md-max: 991px;
+$width-md-min: 768px;
+$width-sm-max: 767px;
+$width-sm-min: 576px;
+$width-xs-max: 575px;
+$width-xs-min: 0px;
